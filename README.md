@@ -1,3 +1,3 @@
-# Progetto del corso Editoria Digitale - 10 settembre 2024
+# Progetto del corso Editoria Digitale "Orizzonti spezzati: racconti di fantascienza"
 
 descrizione
