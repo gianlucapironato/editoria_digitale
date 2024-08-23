@@ -1,2 +1,3 @@
-# editoria_digitale
-Repository progetto Editoria Digitale @ Università degli Studi di Milano
+# Progetto del corso Editoria Digitale - 10 settembre 2024
+
+descrizione
