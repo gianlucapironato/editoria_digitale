@@ -10,4 +10,6 @@ course: Editoria Digitale
 
 ## Guida alla consultazione della repository
 
+* **orizzonti spezzati.md**: è il file che contiene il testo dell'ebook in formato Markdown;
+
 * **relazione**: è la cartella in cui si trova il codice della relazione scritta e formattata con LaTeX e l'output in formato pdf;
