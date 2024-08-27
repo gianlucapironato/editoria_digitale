@@ -1,0 +1,11 @@
+**Prompt per immagine racconto 1:**
+Generate a picture from a future where humanity has colonized distant planets, interstellar communications have become slow and unreliable, with messages taking years to arrive. On different planets, a pair of scientists maintain their relationship through these delayed communications, constantly living in each other's past. Each received message is a window into a time long gone, and replies are sent without knowing how the other has changed in the meantime. As the years go by and their lives change, the messages they exchange become a testament to time and distance, exploring the meaning of waiting, memory, and human connection in a vast and indifferent universe.
+
+**Prompt per immagine racconto 2:**
+Generate an image from a distant future, a group of travelers embarks on the Pilgrimage of Mirrors, an ancient ritual that leads pilgrims across a desert planet where the seas of sand reflect the stars and distort time. During the journey, the pilgrims share common experiences and visions that emerge from the planet's natural mirrors, discovering deep bonds that transcend cultural, social, and temporal differences. Through gazes that tell stories and reveal hidden truths, the travelers experience a connection that goes beyond time and space, finding a shared sense in the vastness of the universe.
+
+**Prompt per immagine racconto 3:**
+Generate an image from a futuristic society where social interactions are managed through an app that regulates and optimizes connections, a man begins to experience a growing sense of isolation. Despite his contacts being perfectly managed by the algorithm, he feels that something is missing in his interconnected world. His journey leads him to discover a hidden corner of the city where human relationships occur without technological filters, and he must decide whether to risk everything to rediscover authentic connection.
+
+**Prompt per copertina:**
+Generate an image that can be used as a book cover for a collection of sci-fi tales.
