@@ -1,6 +1,6 @@
 # **L'eco del silenzio**
 
-![sfondo racconto 1](./immagini/immagine_racconto1.jpg)
+![](.\immagini\immagine_racconto1.jpg)
 
 ## **Capitolo 1: Messaggi tra le stelle**
 
@@ -137,7 +137,7 @@ fiorire, nonostante il passare del tempo.
 
 # **Il pellegrinaggio degli specchi**
 
-![sfondo racconto 1](./immagini/immagine_racconto2.jpg)
+![](.\immagini\immagine_racconto2.jpg)
 
 ## **Prologo: Il richiamo delle stelle**
 
@@ -298,7 +298,7 @@ un'esperienza che trascendeva il tempo, lo spazio e le parole.
 
 # **Il protocollo della solitudine**
 
-![sfondo racconto 1](./immagini/immagine_racconto3.jpg)
+![](.\immagini\immagine_racconto3.jpg)
 
 ## **Capitolo 1: La connessione perfetta**
 

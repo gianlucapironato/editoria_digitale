@@ -1,0 +1,18 @@
+---
+title: "Orizzonti spezzati: racconti di fantascienza"
+author: "Gianluca Pironato"
+date: "2024-09-10"
+language: "it"
+description: >
+  "Orizzonti Spezzati" è una raccolta di racconti di fantascienza che esplora
+  temi universali come le relazioni interpersonali, la solitudine e l'identità
+  in contesti futuristici. Attraverso ambientazioni straordinarie e scenari
+  tecnologicamente avanzati, ogni storia offre una riflessione profonda sulle
+  esperienze umane fondamentali, rendendo la raccolta accessibile sia agli
+  appassionati del genere sia a chi cerca narrazioni coinvolgenti e ricche di
+  significato. La varietà dei racconti e la loro capacità di affrontare temi
+  trasversali rendono questa antologia una lettura avvincente per un pubblico
+  eterogeneo.
+keywords: ["fantascienza", "racconti", "relazioni interpersonali", "solitudine", "identità", "futuro", "tecnologia", "esplorazione spaziale", "antologia", "narrativa speculativa", "mondi futuristici", "connessione umana", "scenari distopici", "riflessione sociale"]
+
+---
