@@ -7,6 +7,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{listings}
+\usepackage[italian]{babel}
 
 \title{Relazione del progetto di Editoria Digitale \\ "Orizzonti spezzati: racconti di fantascienza"}
 \author{Gianluca Pironato \\ 47257A}
@@ -55,7 +56,7 @@ Ecco dunque una lista di possibili destinatari:
 \begin{itemize}
     \item Luca, 34 anni, ingegnere informatico, appassionato di tecnologia e fantascienza. Apprezza le storie che esplorano il futuro della scienza e della tecnologia, con un particolare interesse per i racconti che lo fanno riflettere sulle implicazioni etiche e filosofiche delle innovazioni;
     \item Maria, 28 anni, insegnante di letteratura, ama leggere, anche se la fantascienza non è il suo genere preferito. È affascinata da storie che esplorano le emozioni umane;
-    \item Giovanni, 42 anni, manager, lettore occasionale che preferisce storie brevi da leggere nei momenti di pausa. Non è particolarmente appassionato alla fantascienza, ma è curioso di esplorare come questo genere possa offrire.
+    \item Giovanni, 42 anni, manager, lettore occasionale che preferisce storie brevi da leggere nei momenti di pausa. Non è particolarmente appassionato alla fantascienza, ma è curioso di esplorare cosa questo genere possa offrire.
 \end{itemize}
 
 Luca legge uno dei racconti durante la pausa pranzo al lavoro, trovando nella fantascienza un modo per evadere dalla routine e riflettere su innovazioni tecnologiche e dilemmi etici. Maria, in un pomeriggio di relax nel weekend, scopre che un racconto, pur in un contesto futuristico, risuona con le sue esperienze personali, offrendo introspezione e intrattenimento. Giovanni, durante un viaggio in treno, apprezza la brevità e l'intensità delle storie, che gli permettono di rilassarsi e riflettere su aspetti quotidiani da una nuova prospettiva. Questi scenari mostrano come la raccolta si adatti a diversi momenti della vita dei lettori, rispondendo alle loro esigenze di intrattenimento e riflessione.
@@ -72,10 +73,14 @@ Dal punto di vista delle tecnologie, è immediato ipotizzare che l'esperienza di
 
 La pubblicazione della raccolta può avvenire attraverso i principali canali digitali, per raggiungere il più vasto pubblico possibile. Le piattaforme di distribuzione più efficaci includono Amazon Kindle Store, Apple Books, Google Play Books e lo store Kobo. Queste piattaforme non solo offrono una vasta diffusione, ma anche strumenti che permettono ai lettori di scoprire nuovi contenuti in base ai loro interessi, aumentando così le possibilità che la raccolta venga consigliata a lettori di opere simili.
 
+\bigbreak
+
+Data la natura didattica del progetto, per la distribuzione dell'ebook e dei file di codice è stata scelta la licenza Creative Commons Attribuzione - Non Commerciale - Condividi allo stesso modo 4.0 Internazionale (CC BY-NC-SA 4.0). L'adozione di questa licenza mira a promuovere la libera diffusione e fruizione dell'ebook, incoraggiando al contempo la creatività e la condivisione responsabile. Impedisce utilizzi non autorizzati a fini commerciali e assicura che eventuali opere derivate mantengano le stesse condizioni di condivisione.
+
 \section*{Processo di Produzione}
 \subsection*{Acquisizione dei contenuti}
 
-Il contenuto della raccolta, nel prototipo qui limitato al numero di tre racconti, è stato interamente creato e strutturato in capitoli mediante l'uso di ChatGPT, nella sua versione personalizzata chiamata Ebook Creator, riducendo così i tempi da dedicare alla fase che altrimenti risulterebbe la più onerosa nel processo di produzione editoriale. Il modello di linguaggio è stato opportunamente "istruito" circa i temi, lo stile e il genere di testo da generare ed è possibile consultare \href{https://github.com/gianlucapironato/editoria_digitale/blob/main/prompt%20acquisizione%20contenuti.md}{\underline{la lista di prompt adoperati nel repository allegato}}.
+Il contenuto della raccolta, nel prototipo qui limitato al numero di tre racconti, è stato interamente creato e strutturato in capitoli mediante l'uso di ChatGPT, nella sua versione personalizzata chiamata \href{https://chatgpt.com/g/g-RVUmJ1eso-ebook-creator}{\underline{Ebook Creator}}, riducendo così i tempi da dedicare alla fase che altrimenti risulterebbe la più onerosa nel processo di produzione editoriale. Il modello di linguaggio è stato opportunamente "istruito" circa i temi, lo stile e il genere di testo da generare ed è possibile consultare \href{https://github.com/gianlucapironato/editoria_digitale/blob/main/prompt%20acquisizione%20contenuti.md}{\underline{la lista di prompt adoperati nel repository allegato}}.
 
 \bigbreak
 
@@ -87,6 +92,10 @@ Per quanto riguarda la veste grafica, nell'ottica di rendere più accattivante i
 \bigbreak
 
 Per la generazione di queste immagini è stato utilizzato lo strumento chiamato Runway, nella sua funzionalità text-to-image e, nello specifico, è stato creato un prompt diverso per ogni racconto, basato sulla corrispondente sinossi. \href{https://github.com/gianlucapironato/editoria_digitale/blob/main/immagini/prompt%20immagini.md}{\underline{I prompt sono consultabili nel file del repository allegato.}}
+
+\subsection*{Inserimento dei metadati}
+
+Per il file ePub prodotto, sono stati specificati metadati in formato YAML, seguendo il sistema standard Dublin Core. Questi metadati includono informazioni fondamentali come il titolo, l'autore, la descrizione, le parole chiave, la lingua e i diritti associati al contenuto, utili per catalogazione e indicizzazione sulle piattaforme di distribuzione e per la massima diffusione del prodotto finale.
 
 \subsection*{Trasformazione dei formati}
 La trasformazione dei formati è stata necessaria per convertire i racconti in un formato idoneo alla distribuzione digitale. L'output testuale di ChatGPT è stato richiesto in formato Markdown, linguaggio di marcatura semplice e strutturato che consente di gestire velocemente titoli, sezioni e altri elementi di formattazione.
@@ -101,11 +110,15 @@ pandoc --toc --metadata-file="metadati.txt"
 -o '.\orizzonti spezzati.epub' '.\orizzonti spezzati.md'
 \end{lstlisting}
 
-Il file denominato $metadati.txt$ contiene alcune informazioni in formato YAML sull'ebook quali titolo, autore, data di pubblicazione, descrizione e parole chiave utili per l'indicizzazione e per la distribuzione del prodotto finale; inoltre, le opzioni $toc$ e $epub-cover-image$ permettono di generare l'indice dei capitoli e di aggiungere un'immagine di copertina.
+\bigbreak
+
+Il file denominato $metadati.txt$ contiene i metadati in formato YAML già discussi;le opzioni $toc$ e $epub-cover-image$ permettono di generare l'indice dei capitoli e di aggiungere un'immagine di copertina.
 
 
 \subsection*{Esecuzione del flusso}
-I prodotti del flusso di gestione documentale sono tutti consultabili attraverso il \href{https://github.com/gianlucapironato/editoria_digitale/}{\underline{repository del progetto.}}
+I prodotti del flusso di gestione documentale sono tutti consultabili attraverso il \href{https://github.com/gianlucapironato/editoria_digitale/}{\underline{repository del progetto}} su GitHub, strumento che si è rivelato essenziale per gestire il versioning. 
+
+
 
 \section*{Valutazione dei risultati raggiunti}
 

@@ -1,0 +1,1 @@
+Questo ebook è distribuito sotto una Licenza Creative Commons Attribuzione - Non Commerciale - Condividi allo stesso modo 4.0 Internazionale (CC BY-NC-SA 4.0). Per vedere una copia della licenza, visita https://creativecommons.org/licenses/by-nc-sa/4.0/

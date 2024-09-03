@@ -13,6 +13,5 @@ description: >
   significato. La varietà dei racconti e la loro capacità di affrontare temi
   trasversali rendono questa antologia una lettura avvincente per un pubblico
   eterogeneo.
-keywords: ["fantascienza", "racconti", "relazioni interpersonali", "solitudine", "identità", "futuro", "tecnologia", "esplorazione spaziale", "antologia", "narrativa speculativa", "mondi futuristici", "connessione umana", "scenari distopici", "riflessione sociale"]
 
 ---
