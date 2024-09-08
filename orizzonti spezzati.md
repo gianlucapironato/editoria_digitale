@@ -1,6 +1,10 @@
 # **L'eco del silenzio**
 
-![](.\immagini\immagine_racconto1.jpg)
+{::comment}
+    i caratteri slash dei percorsi delle immagini vanno sostituiti con backslash per la corretta generazione del file epub tramite Pandoc su Windows
+{:/comment}
+
+![](./immagini/immagine_racconto1.jpg)
 
 ## **Capitolo 1: Messaggi tra le stelle**
 
@@ -137,7 +141,11 @@ fiorire, nonostante il passare del tempo.
 
 # **Il pellegrinaggio degli specchi**
 
-![](.\immagini\immagine_racconto2.jpg)
+{::comment}
+    i caratteri slash dei percorsi delle immagini vanno sostituiti con backslash per la corretta generazione del file epub tramite Pandoc su Windows
+{:/comment}
+
+![](./immagini/immagine_racconto2.jpg)
 
 ## **Prologo: Il richiamo delle stelle**
 
@@ -298,7 +306,11 @@ un'esperienza che trascendeva il tempo, lo spazio e le parole.
 
 # **Il protocollo della solitudine**
 
-![](.\immagini\immagine_racconto3.jpg)
+{::comment}
+    i caratteri slash dei percorsi delle immagini vanno sostituiti con backslash per la corretta generazione del file epub tramite Pandoc su Windows
+{:/comment}
+
+![](./immagini/immagine_racconto3.jpg)
 
 ## **Capitolo 1: La connessione perfetta**
 
