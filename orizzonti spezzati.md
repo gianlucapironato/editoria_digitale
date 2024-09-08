@@ -1,8 +1,7 @@
 # **L'eco del silenzio**
 
-{::comment}
-    i caratteri slash dei percorsi delle immagini vanno sostituiti con backslash per la corretta generazione del file epub tramite Pandoc su Windows
-{:/comment}
+[i caratteri slash dei percorsi delle immagini vanno sostituiti con backslash per la corretta generazione del file epub tramite Pandoc su Windows]: #
+
 
 ![](./immagini/immagine_racconto1.jpg)
 
@@ -141,9 +140,7 @@ fiorire, nonostante il passare del tempo.
 
 # **Il pellegrinaggio degli specchi**
 
-{::comment}
-    i caratteri slash dei percorsi delle immagini vanno sostituiti con backslash per la corretta generazione del file epub tramite Pandoc su Windows
-{:/comment}
+[i caratteri slash dei percorsi delle immagini vanno sostituiti con backslash per la corretta generazione del file epub tramite Pandoc su Windows]: #
 
 ![](./immagini/immagine_racconto2.jpg)
 
@@ -306,9 +303,7 @@ un'esperienza che trascendeva il tempo, lo spazio e le parole.
 
 # **Il protocollo della solitudine**
 
-{::comment}
-    i caratteri slash dei percorsi delle immagini vanno sostituiti con backslash per la corretta generazione del file epub tramite Pandoc su Windows
-{:/comment}
+[i caratteri slash dei percorsi delle immagini vanno sostituiti con backslash per la corretta generazione del file epub tramite Pandoc su Windows]: #
 
 ![](./immagini/immagine_racconto3.jpg)
 
